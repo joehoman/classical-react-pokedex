@@ -3,6 +3,7 @@ export function randomNumber(max) {
 }
 
 export function formatPokeData(data) {
+  console.log('format', data)
   return {
     name: data.name,
     image: data.sprites.front_default,
